@@ -3,6 +3,7 @@
   --main-lighter-color: #407088;
   --second-color: #ffb5b5;
   --second-lighter-color: #ffcbcb;
+  --main-font: "Merienda", cursive;
 }
 
 .fix-top {
@@ -22,6 +23,7 @@ body {
 }
 
 .hero h1 {
+  font-family: var(--main-font);
   text-align: center;
   font-size: 80px;
   margin: 0;
@@ -29,8 +31,9 @@ body {
 }
 
 .hero h3 {
+  font-family: var(--main-font);
   text-align: center;
-  margin-top: 100px;
+  margin-top: 120px;
   margin-bottom: 0;
   font-size: 60px;
 }
@@ -109,10 +112,12 @@ p {
 }
 
 .about-hero h3 {
+  font-family: var(--main-font);
   font-size: 50px;
 }
 
 .about-hero h1 {
+  font-family: var(--main-font);
   font-size: 60px;
   color: var(--main-font-color);
 }
