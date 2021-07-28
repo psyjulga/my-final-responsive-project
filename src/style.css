@@ -107,6 +107,11 @@ p {
   color: var(--main-lighter-color);
 }
 
+.about-hero h1,
+h3 {
+  color: var(--main-font-color);
+}
+
 .about-p {
   font-size: 15px;
   text-align: center;
