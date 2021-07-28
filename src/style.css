@@ -65,7 +65,6 @@ body {
 }
 
 .my-apps h4 {
-  font-family: var(--main-font);
   color: var(--main-font-color);
 }
 
