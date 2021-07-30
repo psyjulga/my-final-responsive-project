@@ -64,10 +64,7 @@ body {
   transition: all 300ms ease-in-out;
 }
 
-.my-apps h4 {
-  color: var(--main-font-color);
-}
-
+.my-apps h4,
 .my-apps p {
   color: var(--main-font-color);
 }
@@ -166,6 +163,13 @@ body {
   box-shadow: 2px 2px 2px var(--main-lighter-color);
 }
 
+.work-hero h1 {
+  font-family: var(--main-font);
+  text-align: center;
+  margin: 125px 20px 15px 20px;
+  font-size: 60px;
+}
+
 .contact-me {
   text-align: center;
   margin-top: 25px;
@@ -217,5 +221,9 @@ body {
 
   .about img {
     margin-top: 30px;
+  }
+
+  .work-hero h1 {
+    font-size: 50px;
   }
 }
