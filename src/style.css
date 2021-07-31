@@ -94,15 +94,6 @@ body {
   transition: all 300ms ease-in-out;
 }
 
-.signature {
-  color: var(--main-font-color);
-  text-align: center;
-}
-
-.signature a {
-  color: var(--main-lighter-color);
-}
-
 .about {
   margin-top: 120px;
   margin-bottom: 80px;
@@ -174,6 +165,14 @@ body {
   text-align: center;
   font-size: 22px;
   margin-top: 7px;
+  color: var(--main-font-color);
+}
+
+.second-hero a {
+  color: var(--main-font-color);
+}
+
+.second-hero a:hover {
   color: var(--main-lighter-color);
 }
 
@@ -234,13 +233,26 @@ footer .contact-icons a:hover {
   background-color: var(--main-lighter-color);
 }
 
+footer .signature {
+  color: var(--main-font-color);
+  text-align: center;
+}
+
+footer .signature a {
+  color: var(--main-font-color);
+}
+
+footer .signature a:hover {
+  color: var(--main-lighter-color);
+}
+
 @media (max-width: 767px) {
   .hero {
     padding: 0 15px;
   }
 
   .hero h3 {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .hero h1,
@@ -250,6 +262,13 @@ footer .contact-icons a:hover {
   }
   .hero h2 {
     font-size: 20px;
+    margin-bottom: 35px;
+  }
+
+  .button-1-2 {
+    font-size: 17px;
+
+    padding: 17px 20px;
   }
 
   .about-hero h3 {
@@ -262,6 +281,7 @@ footer .contact-icons a:hover {
     text-align: center;
   }
   .my-apps .app-p {
+    padding: 0 5px;
     text-align: center;
     width: 100%;
   }
@@ -277,5 +297,9 @@ footer .contact-icons a:hover {
 
   .second-hero h1 {
     font-size: 50px;
+  }
+
+  .contact-row {
+    padding: 0;
   }
 }
