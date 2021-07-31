@@ -22,20 +22,20 @@ body {
   background-color: var(--second-color);
 }
 
-.hero h1 {
-  font-family: var(--main-font);
-  text-align: center;
-  font-size: 80px;
-  margin: 0;
-  color: var(--main-font-color);
-}
-
 .hero h3 {
   font-family: var(--main-font);
   text-align: center;
   margin-top: 130px;
   margin-bottom: 0;
   font-size: 60px;
+}
+
+.hero h1 {
+  font-family: var(--main-font);
+  text-align: center;
+  font-size: 80px;
+  margin: 0;
+  color: var(--main-font-color);
 }
 
 .hero h2 {
@@ -184,7 +184,7 @@ body {
 footer .inquiry-box {
   background-color: var(--second-lighter-color);
   padding: 26px 0;
-  margin: 30px 300px 60px 300px;
+  margin: 30px 170px 60px 170px;
   border-radius: 6px;
 }
 
@@ -238,12 +238,20 @@ footer .contact-icons a:hover {
   .hero {
     padding: 0 15px;
   }
+
+  .hero h3 {
+    font-size: 40px;
+  }
+
   .hero h1,
   .about-hero h1 {
     font-size: 55px;
     text-align: center;
   }
-  .hero h2,
+  .hero h2 {
+    font-size: 20px;
+  }
+
   .about-hero h3 {
     font-size: 35px;
     text-align: center;
