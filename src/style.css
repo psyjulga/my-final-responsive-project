@@ -181,6 +181,59 @@ body {
   padding: 0 80px;
 }
 
+footer .inquiry-box {
+  background-color: var(--second-lighter-color);
+  padding: 26px 0;
+  margin: 30px 300px 60px 300px;
+  border-radius: 6px;
+}
+
+footer .inquiry-box-left h4 {
+  color: var(--main-font-color);
+  font-size: 45px;
+  padding-top: 12px;
+}
+
+footer .inquiry-box-left p {
+  font-size: 20px;
+  font-family: var(--main-font);
+  color: var(--main-lighter-color);
+  padding-left: 15px;
+}
+
+footer a.email-link {
+  text-decoration: none;
+  color: var(--main-font-color);
+  display: block;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  transition: all 300ms ease-in-out;
+}
+
+footer a.email-link:hover {
+  color: var(--main-lighter-color);
+}
+
+footer .contact-icons {
+  margin: 50px 0;
+}
+
+footer .contact-icons a {
+  color: var(--main-lighter-color);
+  background-color: var(--second-lighter-color);
+  border-radius: 50%;
+  padding: 14px 18px;
+  margin: 10px;
+  font-size: 30px;
+  transition: all 300ms ease-in-out;
+}
+
+footer .contact-icons a:hover {
+  color: var(--second-lighter-color);
+  background-color: var(--main-lighter-color);
+}
+
 @media (max-width: 767px) {
   .hero {
     padding: 0 15px;
