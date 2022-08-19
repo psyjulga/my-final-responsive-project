@@ -245,14 +245,14 @@ const employeePolls = {
 const petBook = {
 	headline: 'Final Fullstack Project: Petbook',
 	paragraph: `After two backend courses with an image API project
-	            and a shopping app API project, where we used NodeJS, Express, Jest and TypeScript, 
-							we combined our
+	            and a shopping app API project, where we used NodeJS, Express, 
+							Typescript and Jest, we combined our
 							knowledge of frontend and backend development to build a
 							fullstack project.
 							The very last - the final Masterschool project.
 							Petbook is a facebook for pet owners -
 							come and create an account yourself! 🐹 
-							⚠ THIS WORK IS STILL IN PROGRESS ⚠`,
+							⚠THIS WORK IS STILL IN PROGRESS⚠`,
 	netlify_link: '#',
 	title: 'Petbook',
 	button_text: 'Create an Account',
