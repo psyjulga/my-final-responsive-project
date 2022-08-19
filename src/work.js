@@ -97,7 +97,7 @@ const petBook = {
 	title: 'Petbook',
 	img_src: 'alice.jpg',
 	tech_stack:
-		'Currently building with React, Redux, NodeJS, Express, PostgreSQL, Jest and CSS',
+		'Currently building with React, Redux, Typescript, NodeJS, Express, PostgreSQL, Jest and CSS',
 }
 
 const apps = [
