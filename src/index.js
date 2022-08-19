@@ -150,7 +150,7 @@ const pixelArtMaker = {
 	netlify_link: 'https://pixel-art-maker-project.netlify.app/',
 	title: 'Pixel Art Maker',
 	button_text: 'Create an Artwork',
-	img_src: 'src/pixel_art_maker_screenshot.png',
+	img_src: '/src/pixel_art_maker_screenshot.png',
 	img_position: 'right',
 }
 
@@ -186,7 +186,7 @@ const dinosaurs = {
 	netlify_link: 'https://dinosaurs-project.netlify.app/',
 	title: 'Dinosaurs',
 	button_text: 'Compare yourself to Dinosaurs',
-	img_src: 'src/dinosaurs_screenshot',
+	img_src: '/src/dinosaurs_screenshot.png',
 	img_position: 'right',
 }
 
@@ -219,10 +219,10 @@ const myReads = {
 							React simplifies frontend development so much, and it was 
 							demanding and rewarding at the same time to build the my reads projects. 📖
 							`,
-	netlify_link: '#',
+	netlify_link: 'https://react-my-reads-project.netlify.app/',
 	title: 'My Reads',
 	button_text: 'Open Library',
-	img_src: '',
+	img_src: '/src/my_reads_screenshot.png',
 	img_position: 'right',
 }
 
