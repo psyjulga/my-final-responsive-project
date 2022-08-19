@@ -2,7 +2,7 @@ function displayAppImgLeftHtml(app) {
 	const appHtml = `<div class="row m-5">
 		<div class="col-6">
 			<img
-				src="${app.img_src}"
+				src="/src/img/${app.img_src}"
 				alt="${app.title}"
 				class="img-fluid d-none d-md-block"
 			/>
@@ -47,7 +47,7 @@ function displayAppImgRightHtml(app) {
 		</div>
 		<div class="col-6">
 			<img
-				src="${app.img_src}"
+				src="/src/img/${app.img_src}"
 				alt="${app.title}"
 				class="img-fluid d-none d-md-block"
 			/>
@@ -72,7 +72,7 @@ const marilyntheCat = {
 		'https://www.shecodes.io/workshops/shecodes-online-workshop-60-0/projects/313964',
 	title: 'Marilyn the Cat',
 	button_text: 'Meet Marilyn',
-	img_src: '/src/Marilyn_the_cat_screenshot.png',
+	img_src: 'Marilyn_the_cat_screenshot.png',
 	img_position: 'left',
 }
 
@@ -87,7 +87,7 @@ const myThreeHomes = {
 	netlify_link: 'https://my-three-homes.netlify.app/',
 	title: 'My three Homes',
 	button_text: 'Visit home³',
-	img_src: '/src/my_three_homes_screenshot.png',
+	img_src: 'my_three_homes_screenshot.png',
 	img_position: 'right',
 }
 
@@ -101,7 +101,7 @@ const vanillaWeatherApp = {
 	netlify_link: 'https://vanilla-weather-app-js-shecodes.netlify.app/',
 	title: 'Vanilla Weather App',
 	button_text: 'Show Weather',
-	img_src: '/src/vanilla_weather_app_screenshot.png',
+	img_src: 'vanilla_weather_app_screenshot.png',
 	img_position: 'left',
 }
 
@@ -117,7 +117,7 @@ const reactWeatherApp = {
 	netlify_link: 'https://react-weather-app-shecodes.netlify.app/',
 	title: 'React Weather App',
 	button_text: 'Show Weather',
-	img_src: '/src/react_weather_app_screenshot.png',
+	img_src: 'react_weather_app_screenshot.png',
 	img_position: 'right',
 }
 
@@ -133,7 +133,7 @@ const dictionaryDeluxe = {
 	netlify_link: 'https://dictionary-deluxe.netlify.app/',
 	title: 'Dictionary Deluxe',
 	button_text: 'Open Dictionary',
-	img_src: '/src/dictionary_deluxe_screenshot.png',
+	img_src: 'dictionary_deluxe_screenshot.png',
 	img_position: 'left',
 }
 
@@ -150,7 +150,7 @@ const pixelArtMaker = {
 	netlify_link: 'https://pixel-art-maker-project.netlify.app/',
 	title: 'Pixel Art Maker',
 	button_text: 'Create an Artwork',
-	img_src: '/src/pixel_art_maker_screenshot.png',
+	img_src: '/pixel_art_maker_screenshot.png',
 	img_position: 'right',
 }
 
@@ -167,7 +167,7 @@ const myMeowBlog = {
 	netlify_link: 'https://blogpost-project-meow-blog.netlify.app/',
 	title: 'My Meow Blog',
 	button_text: 'Read my Blog',
-	img_src: '/src/my_meow_blog_screenshot.png',
+	img_src: 'my_meow_blog_screenshot.png',
 	img_position: 'left',
 }
 
@@ -186,7 +186,7 @@ const dinosaurs = {
 	netlify_link: 'https://dinosaurs-project.netlify.app/',
 	title: 'Dinosaurs',
 	button_text: 'Compare yourself to Dinosaurs',
-	img_src: '/src/dinosaurs_screenshot.png',
+	img_src: 'dinosaurs_screenshot.png',
 	img_position: 'right',
 }
 
@@ -222,7 +222,7 @@ const myReads = {
 	netlify_link: 'https://react-my-reads-project.netlify.app/',
 	title: 'My Reads',
 	button_text: 'Open Library',
-	img_src: '/src/my_reads_screenshot.png',
+	img_src: 'my_reads_screenshot.png',
 	img_position: 'right',
 }
 
@@ -238,7 +238,7 @@ const employeePolls = {
 	netlify_link: 'https://employee-polls-react-redux.netlify.app/',
 	title: 'Employee Polls',
 	button_text: 'Show Polls',
-	img_src: '/src/employee_polls_screenshot.png',
+	img_src: 'employee_polls_screenshot.png',
 	img_position: 'left',
 }
 
