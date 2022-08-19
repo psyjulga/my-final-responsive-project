@@ -78,7 +78,7 @@ const marilyntheCat = {
 
 const myThreeHomes = {
 	headline: 'My first responsive Website: My three homes',
-	paragraph: `After the basic workshop, I went on to dive into coding, learnt more about
+	paragraph: `After the basic workshop, I went on diving into coding, learnt more about
 	            the colorful world of HTML and CSS, including the modern tools of making a
 							website responsive.
 							"Mobile first" was our motto. As part of this course I built the my three homes page
@@ -96,7 +96,7 @@ const vanillaWeatherApp = {
 	paragraph: `Not just colorful but powerful - that's JavaScript!
 	            We learnt about external APIs and how to make http requests
 							to load data and display them on our website.
-							It's an amazing experience to create a weather app yourself,
+							It's an amazing experience to create a weather app yourself -
 							useful, colorful, powerful. 🌈`,
 	netlify_link: 'https://vanilla-weather-app-js-shecodes.netlify.app/',
 	title: 'Vanilla Weather App',
@@ -107,11 +107,11 @@ const vanillaWeatherApp = {
 
 const reactWeatherApp = {
 	headline: 'My first React Application: React Weather App',
-	paragraph: `JavaScript today can't be imagined without its countless
+	paragraph: `JavaScript today can't be imagined today without its countless
 	            libraries and frameworks.
 							One of the most popular ones ist React. We learned about the
 							basics, step by step, and proved our understanding by 
-							building the very same application anew.
+							building the very same weather application anew.
 							This time using React instead of vanilla JS. 🌞
 							`,
 	netlify_link: 'https://react-weather-app-shecodes.netlify.app/',
@@ -161,7 +161,7 @@ const myMeowBlog = {
 							But don't underestimate that!
 							CSS grid can be quite tricky, and it took me several tries
 							to make it as perfect as possible.
-							I am a hugh fan of colors, design and therefore CSS -
+							I am a huge fan of colors, design and therefore CSS -
 							and so I had tons of fun creating my meow blog! 🐈
 							`,
 	netlify_link: 'https://blogpost-project-meow-blog.netlify.app/',
@@ -251,7 +251,7 @@ const petBook = {
 							The very last, the final Masterschool project.
 							Petbook is a facebook for pet owners -
 							come and create an account yourself!
-							No worries - your data is safe 🐹`,
+							No worries - your data is safe 🐹 THIS WORK IS STILL IN PROGRESS`,
 	netlify_link: '#',
 	title: 'Petbook',
 	button_text: 'Create an Account',
@@ -274,7 +274,7 @@ const apps = [
 	petBook,
 ]
 
-let html
+let html = ''
 
 apps.forEach((app) => {
 	if (app.img_position === 'left') {
