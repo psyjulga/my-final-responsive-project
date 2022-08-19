@@ -1,5 +1,5 @@
 function displayAppHtml(app) {
-	const appHtml = `<div class="col-md-6 p-3">
+	const appHtml = `<div class="col-md-6 p-5">
 					<a href ="${app.netlify_link}" target="_blank" title="${app.title}">
           <img
 						src="/src/img/${app.img_src}"
@@ -120,12 +120,6 @@ let pre = '<div class="row">'
 let post = '</div>'
 
 apps.forEach((app, index) => {
-	// if (index === 0) {
-	// 	html += pre
-	// 	let htmlFragment = displayAppHtml(app)
-	// 	html += htmlFragment
-	// }
-
 	if (index % 2 === 0) {
 		html += pre
 		let htmlFragment = displayAppHtml(app)
