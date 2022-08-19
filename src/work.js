@@ -120,13 +120,19 @@ let pre = '<div class="row">'
 let post = '</div>'
 
 apps.forEach((app, index) => {
-	if (index + (2 % 2) !== 0) {
+	// if (index === 0) {
+	// 	html += pre
+	// 	let htmlFragment = displayAppHtml(app)
+	// 	html += htmlFragment
+	// }
+
+	if (index % 2 === 0) {
 		html += pre
 		let htmlFragment = displayAppHtml(app)
 		html += htmlFragment
 	}
 
-	if (index + (2 % 2) === 0) {
+	if (index % 2 !== 0) {
 		let htmlFragment = displayAppHtml(app)
 		html += htmlFragment
 		html += post
