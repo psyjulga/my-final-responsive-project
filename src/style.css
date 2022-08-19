@@ -1,305 +1,316 @@
 :root {
-  --main-font-color: #132743;
-  --main-lighter-color: #407088;
-  --second-color: #ffb5b5;
-  --second-lighter-color: #ffcbcb;
-  --main-font: "Merienda", cursive;
+	--main-font-color: #132743;
+	--main-lighter-color: #407088;
+	--second-color: #ffb5b5;
+	--second-lighter-color: #ffcbcb;
+	--main-font: 'Merienda', cursive;
 }
 
 .fix-top {
-  position: fixed;
-  top: 0;
-  width: 100%;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 button:hover {
-  cursor: pointer;
-  color: var(--second-lighter-color);
-  background-color: var(--main-lighter-color);
+	cursor: pointer;
+	color: var(--second-lighter-color);
+	background-color: var(--main-lighter-color);
 }
 
 body {
-  background-color: var(--second-color);
+	background-color: var(--second-color);
 }
 
 .hero h3 {
-  font-family: var(--main-font);
-  text-align: center;
-  margin-top: 130px;
-  margin-bottom: 0;
-  font-size: 60px;
+	font-family: var(--main-font);
+	text-align: center;
+	margin-top: 130px;
+	margin-bottom: 0;
+	font-size: 60px;
 }
 
 .hero h1 {
-  font-family: var(--main-font);
-  text-align: center;
-  font-size: 80px;
-  margin: 0;
-  color: var(--main-font-color);
+	font-family: var(--main-font);
+	text-align: center;
+	font-size: 80px;
+	margin: 0;
+	color: var(--main-font-color);
 }
 
 .hero h2 {
-  text-align: center;
-  font-size: 22px;
-  margin-top: 7px;
-  color: var(--main-lighter-color);
+	text-align: center;
+	font-size: 22px;
+	margin-top: 7px;
+	color: var(--main-lighter-color);
 }
 
 .buttons {
-  margin-top: 12px;
-  display: flex;
-  justify-content: center;
+	margin-top: 12px;
+	display: flex;
+	justify-content: center;
 }
 
 .button-1-2 {
-  color: var(--main-font-color);
-  font-size: 17px;
-  font-weight: bold;
-  padding: 20px 25px;
-  margin: 30px 15px;
-  background-color: var(--second-lighter-color);
-  border: 2px solid var(--main-font-color);
-  border-radius: 6px;
-  box-shadow: 2px 2px 2px var(--main-lighter-color);
-  transition: all 300ms ease-in-out;
+	color: var(--main-font-color);
+	font-size: 17px;
+	font-weight: bold;
+	padding: 20px 25px;
+	margin: 30px 15px;
+	background-color: var(--second-lighter-color);
+	border: 2px solid var(--main-font-color);
+	border-radius: 6px;
+	box-shadow: 2px 2px 2px var(--main-lighter-color);
+	transition: all 300ms ease-in-out;
 }
 
 .my-apps h4,
 .my-apps p {
-  color: var(--main-font-color);
+	color: var(--main-font-color);
 }
 
 .my-apps .app-p {
-  padding: 0 30px;
+	padding: 0 30px;
 }
 
 .my-apps img {
-  padding: 3px;
-  border: 3px solid var(--main-font-color);
-  border-radius: 6px;
-  box-shadow: 2px 2px 2px var(--main-lighter-color);
+	padding: 3px;
+	border: 3px solid var(--main-font-color);
+	border-radius: 6px;
+	box-shadow: 2px 2px 2px var(--main-lighter-color);
 }
 
 .app-button {
-  font-family: var(--main-font);
-  color: var(--main-font-color);
-  font-size: 17px;
-  font-weight: bold;
-  padding: 20px 25px;
-  margin: 5px;
-  background-color: var(--second-lighter-color);
-  border: 2px solid var(--main-font-color);
-  border-radius: 6px;
-  box-shadow: 2px 2px 2px var(--main-lighter-color);
-  transition: all 300ms ease-in-out;
+	font-family: var(--main-font);
+	color: var(--main-font-color);
+	font-size: 17px;
+	font-weight: bold;
+	padding: 20px 25px;
+	margin: 5px;
+	background-color: var(--second-lighter-color);
+	border: 2px solid var(--main-font-color);
+	border-radius: 6px;
+	box-shadow: 2px 2px 2px var(--main-lighter-color);
+	transition: all 300ms ease-in-out;
 }
 
 .about {
-  margin-top: 120px;
-  margin-bottom: 80px;
+	margin-top: 120px;
+	margin-bottom: 80px;
 }
 
 .about-hero {
-  padding: 25px;
+	padding: 25px;
 }
 
 .about-hero h3 {
-  font-family: var(--main-font);
-  font-size: 50px;
+	font-family: var(--main-font);
+	font-size: 50px;
 }
 
 .about-hero h1 {
-  font-family: var(--main-font);
-  font-size: 60px;
-  color: var(--main-font-color);
+	font-family: var(--main-font);
+	font-size: 60px;
+	color: var(--main-font-color);
 }
 
 .about-hero h2 {
-  font-size: 22px;
-  color: var(--main-lighter-color);
-  margin: 18px 0;
+	font-size: 22px;
+	color: var(--main-lighter-color);
+	margin: 18px 0;
 }
 
 .about-hero p {
-  font-size: 15px;
-  color: var(--main-font-color);
-  line-height: 1.8;
+	font-size: 15px;
+	color: var(--main-font-color);
+	line-height: 1.8;
+}
+
+.about-hero a {
+	text-decoration: none;
+	color: var(--main-lighter-color);
+	font-weight: bold;
+	transition: all 300ms ease-in-out;
+}
+
+.about-hero a:hover {
+	color: var(--main-font-color);
 }
 
 .about-hero button {
-  font-family: var(--main-font);
-  color: var(--main-font-color);
-  font-size: 17px;
-  font-weight: bold;
-  padding: 20px 25px;
-  margin: 5px;
-  background-color: var(--second-lighter-color);
-  border: 2px solid var(--main-font-color);
-  border-radius: 6px;
-  box-shadow: 2px 2px 2px var(--main-lighter-color);
-  transition: all 300ms ease-in-out;
+	font-family: var(--main-font);
+	color: var(--main-font-color);
+	font-size: 17px;
+	font-weight: bold;
+	padding: 20px 25px;
+	margin: 5px;
+	background-color: var(--second-lighter-color);
+	border: 2px solid var(--main-font-color);
+	border-radius: 6px;
+	box-shadow: 2px 2px 2px var(--main-lighter-color);
+	transition: all 300ms ease-in-out;
 }
 
 .about-hero button:hover {
-  cursor: pointer;
-  color: var(--second-lighter-color);
-  background-color: var(--main-lighter-color);
+	cursor: pointer;
+	color: var(--second-lighter-color);
+	background-color: var(--main-lighter-color);
 }
 
 .about img {
-  margin: 30px auto;
-  padding: 6px;
-  border: 4px solid var(--main-font-color);
-  border-radius: 12px;
-  box-shadow: 2px 2px 2px var(--main-lighter-color);
+	margin: 30px auto;
+	padding: 6px;
+	border: 4px solid var(--main-font-color);
+	border-radius: 12px;
+	box-shadow: 2px 2px 2px var(--main-lighter-color);
 }
 
 .second-hero h1 {
-  font-family: var(--main-font);
-  text-align: center;
-  margin: 135px 20px 20px 20px;
-  font-size: 60px;
+	font-family: var(--main-font);
+	text-align: center;
+	margin: 135px 20px 20px 20px;
+	font-size: 60px;
 }
 
 .second-hero p {
-  text-align: center;
-  font-size: 22px;
-  margin-top: 7px;
-  color: var(--main-font-color);
+	text-align: center;
+	font-size: 22px;
+	margin-top: 7px;
+	color: var(--main-font-color);
 }
 
 .second-hero a {
-  color: var(--main-font-color);
+	color: var(--main-font-color);
 }
 
 .second-hero a:hover {
-  color: var(--main-lighter-color);
+	color: var(--main-lighter-color);
 }
 
 .contact-row {
-  padding: 0 80px;
+	padding: 0 80px;
 }
 
 footer .inquiry-box {
-  background-color: var(--second-lighter-color);
-  padding: 26px 0;
-  margin: 30px 170px 60px 170px;
-  border-radius: 6px;
+	background-color: var(--second-lighter-color);
+	padding: 26px 0;
+	margin: 30px 170px 60px 170px;
+	border-radius: 6px;
 }
 
 footer .inquiry-box-left h4 {
-  color: var(--main-font-color);
-  font-size: 45px;
-  padding-top: 12px;
+	color: var(--main-font-color);
+	font-size: 45px;
+	padding-top: 12px;
 }
 
 footer .inquiry-box-left p {
-  font-size: 20px;
-  font-family: var(--main-font);
-  color: var(--main-lighter-color);
-  padding-left: 15px;
+	font-size: 20px;
+	font-family: var(--main-font);
+	color: var(--main-lighter-color);
+	padding-left: 15px;
 }
 
 footer a.email-link {
-  text-decoration: none;
-  color: var(--main-font-color);
-  display: block;
-  text-align: center;
-  font-size: 35px;
-  font-weight: bold;
-  transition: all 300ms ease-in-out;
+	text-decoration: none;
+	color: var(--main-font-color);
+	display: block;
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	transition: all 300ms ease-in-out;
 }
 
 footer a.email-link:hover {
-  color: var(--main-lighter-color);
+	color: var(--main-lighter-color);
 }
 
 footer .contact-icons {
-  margin: 50px 0;
+	margin: 50px 0;
 }
 
 footer .contact-icons a {
-  color: var(--main-lighter-color);
-  background-color: var(--second-lighter-color);
-  border-radius: 50%;
-  padding: 14px 18px;
-  margin: 10px;
-  font-size: 30px;
-  transition: all 300ms ease-in-out;
+	color: var(--main-lighter-color);
+	background-color: var(--second-lighter-color);
+	border-radius: 50%;
+	padding: 14px 18px;
+	margin: 10px;
+	font-size: 30px;
+	transition: all 300ms ease-in-out;
 }
 
 footer .contact-icons a:hover {
-  color: var(--second-lighter-color);
-  background-color: var(--main-lighter-color);
+	color: var(--second-lighter-color);
+	background-color: var(--main-lighter-color);
 }
 
 footer .signature {
-  color: var(--main-font-color);
-  text-align: center;
+	color: var(--main-font-color);
+	text-align: center;
 }
 
 footer .signature a {
-  color: var(--main-font-color);
+	color: var(--main-font-color);
 }
 
 footer .signature a:hover {
-  color: var(--main-lighter-color);
+	color: var(--main-lighter-color);
 }
 
 @media (max-width: 767px) {
-  .hero {
-    padding: 0 15px;
-  }
+	.hero {
+		padding: 0 15px;
+	}
 
-  .hero h3 {
-    font-size: 35px;
-  }
+	.hero h3 {
+		font-size: 35px;
+	}
 
-  .hero h1,
-  .about-hero h1 {
-    font-size: 55px;
-    text-align: center;
-  }
-  .hero h2 {
-    font-size: 20px;
-    margin-bottom: 35px;
-  }
+	.hero h1,
+	.about-hero h1 {
+		font-size: 55px;
+		text-align: center;
+	}
+	.hero h2 {
+		font-size: 20px;
+		margin-bottom: 35px;
+	}
 
-  .button-1-2 {
-    font-size: 17px;
+	.button-1-2 {
+		font-size: 17px;
 
-    padding: 17px 20px;
-  }
+		padding: 17px 20px;
+	}
 
-  .about-hero h3 {
-    font-size: 35px;
-    text-align: center;
-  }
+	.about-hero h3 {
+		font-size: 35px;
+		text-align: center;
+	}
 
-  .about-hero h2,
-  .about-hero p {
-    text-align: center;
-  }
-  .my-apps .app-p {
-    padding: 0 5px;
-    text-align: center;
-    width: 100%;
-  }
-  .app-p .app-link,
-  .about-hero a {
-    display: block;
-    text-align: center;
-  }
+	.about-hero h2,
+	.about-hero p {
+		text-align: center;
+	}
+	.my-apps .app-p {
+		padding: 0 5px;
+		text-align: center;
+		width: 100%;
+	}
+	.app-p .app-link,
+	.about-hero a {
+		display: block;
+		text-align: center;
+	}
 
-  .about img {
-    margin-top: 30px;
-  }
+	.about img {
+		margin-top: 30px;
+	}
 
-  .second-hero h1 {
-    font-size: 50px;
-  }
+	.second-hero h1 {
+		font-size: 50px;
+	}
 
-  .contact-row {
-    padding: 0;
-  }
+	.contact-row {
+		padding: 0;
+	}
 }
