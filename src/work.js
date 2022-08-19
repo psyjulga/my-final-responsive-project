@@ -74,7 +74,7 @@ const dinosaurs = {
 const udaciRacer = {
 	netlify_link: '#',
 	title: 'Udaci Racer',
-	img_src: '',
+	img_src: 'alice.jpg',
 	tech_stack: 'Built with JavaScript, NodeJS and Express',
 }
 
@@ -95,7 +95,7 @@ const employeePolls = {
 const petBook = {
 	netlify_link: '#',
 	title: 'Petbook',
-	img_src: '',
+	img_src: 'alice.jpg',
 	tech_stack:
 		'Currently building with React, Redux, NodeJS, Express, PostgreSQL, Jest and CSS',
 }
@@ -120,13 +120,13 @@ let pre = '<div class="row">'
 let post = '</div>'
 
 apps.forEach((app, index) => {
-	if (index % 2 !== 0) {
+	if (index + (2 % 2) !== 0) {
 		html += pre
 		let htmlFragment = displayAppHtml(app)
 		html += htmlFragment
 	}
 
-	if (index % 2 === 0) {
+	if (index + (2 % 2) === 0) {
 		let htmlFragment = displayAppHtml(app)
 		html += htmlFragment
 		html += post

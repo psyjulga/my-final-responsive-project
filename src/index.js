@@ -204,7 +204,7 @@ const udaciRacer = {
 	netlify_link: '#',
 	title: 'Udaci Racer',
 	button_text: 'Start Race',
-	img_src: '',
+	img_src: 'alice.jpg',
 	img_position: 'left',
 }
 
@@ -255,7 +255,7 @@ const petBook = {
 	netlify_link: '#',
 	title: 'Petbook',
 	button_text: 'Create an Account',
-	img_src: '',
+	img_src: 'alice.jpg',
 	img_position: 'right',
 }
 
