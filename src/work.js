@@ -72,7 +72,7 @@ const dinosaurs = {
 }
 
 const udaciRacer = {
-	netlify_link: '#',
+	netlify_link: 'https://github.com/psyjulga/udaci-racer-project',
 	title: 'Udaci Racer',
 	img_src: 'alice.jpg',
 	tech_stack: 'Built with JavaScript, NodeJS and Express',
@@ -93,7 +93,7 @@ const employeePolls = {
 }
 
 const petBook = {
-	netlify_link: '#',
+	netlify_link: 'https://github.com/psyjulga/petbook-project',
 	title: 'Petbook',
 	img_src: 'alice.jpg',
 	tech_stack:
