@@ -126,14 +126,16 @@ body {
 	line-height: 1.8;
 }
 
-.about-hero a {
+.about-hero a,
+.backend-link {
 	text-decoration: none;
 	color: var(--main-lighter-color);
 	font-weight: bold;
 	transition: all 300ms ease-in-out;
 }
 
-.about-hero a:hover {
+.about-hero a:hover,
+.backend-link:hover {
 	color: var(--main-font-color);
 }
 

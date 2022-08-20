@@ -248,12 +248,14 @@ const petBook = {
 	paragraph: `After two backend courses with an 
 	            <a href="https://github.com/psyjulga/image-processing-api-project"
 							   target="_blank"
-								 title="Image API Project Code on Github">
+								 title="Image API Project Code on Github"
+								 class="backend-link">
 								 image API project</a>
 	            and a 
 							<a href="https://github.com/psyjulga/storefront-backend-project"
 							   target="_blank"
-								 title="Storefront Backend Project Code on Github">
+								 title="Storefront Backend Project Code on Github"
+								 class="backend-link">
 								 shopping app API project</a>, where we used NodeJS, Express, 
 							Typescript and Jest, we combined our
 							knowledge of frontend and backend development to build a
