@@ -155,7 +155,7 @@ const pixelArtMaker = {
 }
 
 const myMeowBlog = {
-	headline: 'Responsive Layout: My Meow Blog',
+	headline: 'Advanced Responsive Layout: My Meow Blog',
 	paragraph: `The far most easy project throughout my Masterschool program,
 	            as our responsive blogpage consisted of just HTML and CSS.
 							But don't underestimate that!
@@ -200,8 +200,9 @@ const udaciRacer = {
 							and creating the
 							missing pieces and put it all together.
 							Logic, creativity, perseverance and the principle of
-							trial and failure led me to success! 🏁`,
-	netlify_link: '#',
+							trial and failure led me to success! 🏁
+							<div> ⚠ not hosted on netlify yet ⚠ </div>`,
+	netlify_link: 'https://github.com/psyjulga/udaci-racer-project',
 	title: 'Udaci Racer',
 	button_text: 'Start Race',
 	img_src: 'alice.jpg',
@@ -252,8 +253,8 @@ const petBook = {
 							The very last - the final Masterschool project.
 							Petbook is a facebook for pet owners -
 							come and create an account yourself! 🐹 
-							⚠THIS WORK IS STILL IN PROGRESS⚠`,
-	netlify_link: '#',
+							<div>⚠ THIS WORK IS STILL IN PROGRESS ⚠</div>`,
+	netlify_link: 'https://github.com/psyjulga/petbook-project',
 	title: 'Petbook',
 	button_text: 'Create an Account',
 	img_src: 'alice.jpg',
