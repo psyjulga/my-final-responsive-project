@@ -74,7 +74,7 @@ const dinosaurs = {
 const udaciRacer = {
 	netlify_link: 'https://github.com/psyjulga/udaci-racer-project',
 	title: 'Udaci Racer',
-	img_src: 'alice.jpg',
+	img_src: 'udaci_racer_screenshot.png',
 	tech_stack: 'Built with JavaScript, NodeJS and Express',
 }
 
@@ -95,7 +95,7 @@ const employeePolls = {
 const petBook = {
 	netlify_link: 'https://github.com/psyjulga/petbook-project',
 	title: 'Petbook',
-	img_src: 'alice.jpg',
+	img_src: 'petbook_screenshot.png',
 	tech_stack:
 		'Currently building with React, Redux, Typescript, NodeJS, Express, PostgreSQL, Jest and CSS',
 }

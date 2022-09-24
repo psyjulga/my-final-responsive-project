@@ -205,7 +205,7 @@ const udaciRacer = {
 	netlify_link: 'https://github.com/psyjulga/udaci-racer-project',
 	title: 'Udaci Racer',
 	button_text: 'Start Race',
-	img_src: 'alice.jpg',
+	img_src: 'udaci_racer_screenshot.png',
 	img_position: 'left',
 }
 
@@ -267,7 +267,7 @@ const petBook = {
 	netlify_link: 'https://github.com/psyjulga/petbook-project',
 	title: 'Petbook',
 	button_text: 'Create an Account',
-	img_src: 'alice.jpg',
+	img_src: 'petbook_screenshot.png',
 	img_position: 'right',
 }
 
