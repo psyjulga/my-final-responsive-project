@@ -127,7 +127,8 @@ body {
 }
 
 .about-hero a,
-.backend-link {
+.backend-link,
+.work-github-link {
 	text-decoration: none;
 	color: var(--main-lighter-color);
 	font-weight: bold;
@@ -135,7 +136,8 @@ body {
 }
 
 .about-hero a:hover,
-.backend-link:hover {
+.backend-link:hover,
+.work-github-link:hover {
 	color: var(--main-font-color);
 }
 
