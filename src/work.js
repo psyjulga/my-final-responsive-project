@@ -1,6 +1,6 @@
 function displayAppHtml(app) {
 	const appHtml = `<div class="col-md-6 p-5">
-					<a href ="${app.netlify_link}" target="_blank" title="${app.title}">
+					<a href ="${app.netlify_link}" target="_blank" title="To ${app.title} Website">
           <img
 						src="/src/img/${app.img_src}"
 						alt="${app.title}"
@@ -8,7 +8,8 @@ function displayAppHtml(app) {
 					/>
           </a>
 					<h4 class="text-center mt-3">${app.title}</h4>
-					<p class="text-center">${app.tech_stack}</p>
+					<a href="${app.github - link}" target="_blank" title="My Code on Github">
+					<p class="text-center">${app.tech_stack}</p></a>
 				</div>`
 
 	return appHtml
@@ -20,6 +21,7 @@ const marilyntheCat = {
 	title: 'Marilyn the Cat',
 	img_src: 'Marilyn_the_cat_screenshot.png',
 	tech_stack: 'Built with HTML, CSS and JavaScript',
+	github_link: 'https://github.com/psyjulga/marilyn-the-cat',
 }
 
 const myThreeHomes = {
@@ -27,6 +29,7 @@ const myThreeHomes = {
 	title: 'My three Homes',
 	img_src: 'my_three_homes_screenshot.png',
 	tech_stack: 'Built with HTML and CSS',
+	github_link: 'https://github.com/psyjulga/my-three-homes',
 }
 
 const vanillaWeatherApp = {
@@ -34,6 +37,7 @@ const vanillaWeatherApp = {
 	title: 'Vanilla Weather App',
 	img_src: 'vanilla_weather_app_screenshot.png',
 	tech_stack: 'Built with HTML, CSS and JavaScript',
+	github_link: 'https://github.com/psyjulga/Vanilla-Weather-App',
 }
 
 const reactWeatherApp = {
@@ -41,6 +45,7 @@ const reactWeatherApp = {
 	title: 'React Weather App',
 	img_src: 'react_weather_app_screenshot.png',
 	tech_stack: 'Built with React and CSS',
+	github_link: 'https://github.com/psyjulga/react-weather-app',
 }
 
 const dictionaryDeluxe = {
@@ -48,6 +53,7 @@ const dictionaryDeluxe = {
 	title: 'Dictionary Deluxe',
 	img_src: 'dictionary_deluxe_screenshot.png',
 	tech_stack: 'Built with React and CSS',
+	github_link: 'https://github.com/psyjulga/dictionary-deluxe',
 }
 
 const pixelArtMaker = {
@@ -55,6 +61,7 @@ const pixelArtMaker = {
 	title: 'Pixel Art Maker',
 	img_src: '/pixel_art_maker_screenshot.png',
 	tech_stack: 'Built with JavaScript',
+	github_link: 'https://github.com/psyjulga/js-project-pixel-art-maker',
 }
 
 const myMeowBlog = {
@@ -62,6 +69,7 @@ const myMeowBlog = {
 	title: 'My Meow Blog',
 	img_src: 'my_meow_blog_screenshot.png',
 	tech_stack: 'Built with HTML and CSS',
+	github_link: 'https://github.com/psyjulga/blogpost-project',
 }
 
 const dinosaurs = {
@@ -69,6 +77,7 @@ const dinosaurs = {
 	title: 'Dinosaurs',
 	img_src: 'dinosaurs_screenshot.png',
 	tech_stack: 'Built with JavaScript',
+	github_link: 'https://github.com/psyjulga/my-dinosaur-project',
 }
 
 const udaciRacer = {
@@ -76,6 +85,7 @@ const udaciRacer = {
 	title: 'Udaci Racer',
 	img_src: 'udaci_racer_screenshot.png',
 	tech_stack: 'Built with JavaScript, NodeJS and Express',
+	github_link: 'https://github.com/psyjulga/udaci-racer-project',
 }
 
 const myReads = {
@@ -83,6 +93,7 @@ const myReads = {
 	title: 'My Reads',
 	img_src: 'my_reads_screenshot.png',
 	tech_stack: 'Built with React',
+	github_link: 'https://github.com/psyjulga/react-project-myreads',
 }
 
 const employeePolls = {
@@ -90,6 +101,7 @@ const employeePolls = {
 	title: 'Employee Polls',
 	img_src: 'employee_polls_screenshot.png',
 	tech_stack: 'Built with React, Redux, Jest and CSS',
+	github_link: 'https://github.com/psyjulga/React-Redux-project-employee-polls',
 }
 
 const petBook = {
@@ -98,6 +110,7 @@ const petBook = {
 	img_src: 'petbook_screenshot.png',
 	tech_stack:
 		'Currently building with React, Redux, Typescript, NodeJS, Express, PostgreSQL, Jest and CSS',
+	github_link: 'https://github.com/psyjulga/petbook-project',
 }
 
 const gardenStores = {
@@ -105,6 +118,7 @@ const gardenStores = {
 	title: 'Gardenstores',
 	img_src: 'gardenstores_screenshot.png',
 	tech_stack: 'Built with React, JavaScript and CSS',
+	github_link: 'https://github.com/psyjulga/gardenstores-project',
 }
 
 const apps = [
