@@ -271,6 +271,24 @@ const petBook = {
 	img_position: 'right',
 }
 
+const gardenStores = {
+	headline: 'Onsite React Coding Challenge: Gardenstores',
+	paragraph: `I have been invited for my first onsite job interview !! 🥳  
+	            ..including a coding challenge where I was asked to build
+							a comparison page for burger stores within five hours.
+							I wasn't very satisfied with the result, so I decided
+							to build the whole thing anew at home (with a slight change
+							from burgers to gardens 🌼).
+							All this was such a valuable experience - not only to finally
+							meet other developers in person 💕, but also to get the 
+							opportunity to improve my skills and grow further 💃`,
+	netlify_link: 'https://gardenstores-project.netlify.app/',
+	title: 'Gardenstores',
+	button_text: 'Compare Gardenstores',
+	img_src: 'gardenstores_screenshot.png',
+	img_position: 'left',
+}
+
 const apps = [
 	marilyntheCat,
 	myThreeHomes,
@@ -284,6 +302,7 @@ const apps = [
 	myReads,
 	employeePolls,
 	petBook,
+	gardenStores,
 ]
 
 let html = ''

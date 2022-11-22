@@ -100,6 +100,13 @@ const petBook = {
 		'Currently building with React, Redux, Typescript, NodeJS, Express, PostgreSQL, Jest and CSS',
 }
 
+const gardenStores = {
+	netlify_link: 'https://gardenstores-project.netlify.app/',
+	title: 'Gardenstores',
+	img_src: 'gardenstores_screenshot.png',
+	tech_stack: 'Built with React, JavaScript and CSS',
+}
+
 const apps = [
 	marilyntheCat,
 	myThreeHomes,
@@ -113,6 +120,7 @@ const apps = [
 	myReads,
 	employeePolls,
 	petBook,
+	gardenStores,
 ]
 
 let html = ''
