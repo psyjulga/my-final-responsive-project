@@ -8,7 +8,7 @@ function displayAppHtml(app) {
 					/>
           </a>
 					<h4 class="text-center mt-3">${app.title}</h4>
-					<a href="${app.github - link}" target="_blank" title="My Code on Github">
+					<a href="${app.github_link}" target="_blank" title="My Code on Github">
 					<p class="text-center">${app.tech_stack}</p></a>
 				</div>`
 

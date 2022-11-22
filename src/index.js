@@ -273,7 +273,8 @@ const petBook = {
 
 const gardenStores = {
 	headline: 'Onsite React Coding Challenge: Gardenstores',
-	paragraph: `I have been invited for my first onsite job interview !! 🥳  
+	paragraph: `And the journey goes on !!!
+	            I have been invited for my first onsite job interview !! 🥳  
 	            ... including a coding challenge where I was asked to build
 							a comparison page for burger stores within five hours.
 							I wasn't very satisfied with the result, so I decided
