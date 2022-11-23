@@ -298,7 +298,7 @@ footer .signature a:hover {
 	}
 
 	.work-app-col {
-		padding: 5px 0;
+		padding: 10px 0;
 	}
 
 	.hero {
@@ -325,6 +325,10 @@ footer .signature a:hover {
 		padding: 17px 20px;
 	}
 
+	.about-hero {
+		padding: 25px 0;
+	}
+
 	.about-hero h3 {
 		font-size: 35px;
 		text-align: center;
@@ -334,6 +338,7 @@ footer .signature a:hover {
 	.about-hero p {
 		text-align: center;
 	}
+
 	.my-apps .app-p {
 		padding: 0 5px;
 		text-align: center;
