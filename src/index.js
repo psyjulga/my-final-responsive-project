@@ -30,7 +30,7 @@ function displayAppImgLeftHtml(app) {
 }
 
 function displayAppImgRightHtml(app) {
-	const appHtml = `<div class="row m-5">
+	const appHtml = `<div class="row app-row">
   <div class="col-6 app-p">
 			<h4>${app.headline}</h4>
 			<p>
