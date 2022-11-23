@@ -239,7 +239,7 @@ const employeePolls = {
 	netlify_link: 'https://employee-polls-react-redux.netlify.app/',
 	title: 'Employee Polls',
 	button_text: 'Show Polls',
-	img_src: 'employee_polls_screenshot.png',
+	img_src: 'employee_polls_screenshot_new_styling.png',
 	img_position: 'left',
 }
 

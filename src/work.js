@@ -99,7 +99,7 @@ const myReads = {
 const employeePolls = {
 	netlify_link: 'https://employee-polls-react-redux.netlify.app/',
 	title: 'Employee Polls',
-	img_src: 'employee_polls_screenshot.png',
+	img_src: 'employee_polls_screenshot_new_styling.png',
 	tech_stack: 'Built with React, Redux, Jest and CSS',
 	github_link: 'https://github.com/psyjulga/React-Redux-project-employee-polls',
 }
