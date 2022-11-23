@@ -369,4 +369,8 @@ footer .signature a:hover {
 	.about-hero {
 		padding: 25px 10px;
 	}
+
+	.work-apps {
+		padding: 0 5px;
+	}
 }
