@@ -1,5 +1,5 @@
 function displayAppHtml(app) {
-	const appHtml = `<div class="col-md-6 p-5">
+	const appHtml = `<div class="col-md-6 work-app-col">
 					<a href ="${app.netlify_link}" target="_blank" title="To ${app.title} Website">
           <img
 						src="/src/img/${app.img_src}"

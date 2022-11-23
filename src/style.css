@@ -98,7 +98,13 @@ body {
 	transition: all 300ms ease-in-out;
 }
 
+/* WORK PAGE */
+
 .work-apps {
+	padding: 5px;
+}
+
+.work-app-col {
 	padding: 5px;
 }
 
@@ -110,6 +116,8 @@ body {
 .work-github-link:hover {
 	color: var(--main-font-color);
 }
+
+/* ABOUT PAGE */
 
 .about {
 	margin-top: 120px;
@@ -279,12 +287,15 @@ footer .signature a:hover {
 /* MOBILE VIEW */
 
 @media (max-width: 767px) {
-
 	.app-row {
 		margin: 0;
 	}
 
 	.work-apps {
+		padding: 0;
+	}
+
+	.work-app-col {
 		padding: 0;
 	}
 
