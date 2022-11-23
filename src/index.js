@@ -1,5 +1,5 @@
 function displayAppImgLeftHtml(app) {
-	const appHtml = `<div class="row m-5">
+	const appHtml = `<div class="row app-row">
 		<div class="col-6">
 			<img
 				src="/src/img/${app.img_src}"

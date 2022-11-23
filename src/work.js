@@ -122,19 +122,19 @@ const gardenStores = {
 }
 
 const apps = [
-	marilyntheCat,
-	myThreeHomes,
-	vanillaWeatherApp,
-	reactWeatherApp,
-	dictionaryDeluxe,
-	pixelArtMaker,
-	myMeowBlog,
-	dinosaurs,
-	udaciRacer,
-	myReads,
-	employeePolls,
-	petBook,
 	gardenStores,
+	petBook,
+	employeePolls,
+	myReads,
+	udaciRacer,
+	dinosaurs,
+	myMeowBlog,
+	pixelArtMaker,
+	dictionaryDeluxe,
+	reactWeatherApp,
+	vanillaWeatherApp,
+	myThreeHomes,
+	marilyntheCat,
 ]
 
 let html = ''

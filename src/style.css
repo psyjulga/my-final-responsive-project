@@ -64,6 +64,10 @@ body {
 	transition: all 300ms ease-in-out;
 }
 
+.app-row {
+	margin: 5px;
+}
+
 .my-apps h4,
 .my-apps p {
 	color: var(--main-font-color);
@@ -92,6 +96,10 @@ body {
 	border-radius: 6px;
 	box-shadow: 2px 2px 2px var(--main-lighter-color);
 	transition: all 300ms ease-in-out;
+}
+
+.work-apps {
+	padding: 5px;
 }
 
 .work-github-link {
@@ -268,7 +276,18 @@ footer .signature a:hover {
 	color: var(--main-lighter-color);
 }
 
+/* MOBILE VIEW */
+
 @media (max-width: 767px) {
+
+	.app-row {
+		margin: 0;
+	}
+
+	.work-apps {
+		padding: 0;
+	}
+
 	.hero {
 		padding: 0 15px;
 	}
@@ -308,7 +327,7 @@ footer .signature a:hover {
 		width: 100%;
 	}
 	.app-p .app-link,
-	.about-hero a {
+	.about-projects-button {
 		display: block;
 		text-align: center;
 	}
