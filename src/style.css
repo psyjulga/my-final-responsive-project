@@ -224,7 +224,8 @@ body {
 	padding: 0 80px;
 }
 
-footer .inquiry-box {
+footer .inquiry-box,
+.highlighted-bg {
 	background-color: var(--second-lighter-color);
 	padding: 26px 0;
 	margin: 30px 170px 60px 170px;
