@@ -121,6 +121,10 @@ body {
 
 /* ABOUT PAGE */
 
+.highlighted-text {
+	font-size: 16px;
+}
+
 .about {
 	margin-top: 120px;
 	margin-bottom: 80px;
