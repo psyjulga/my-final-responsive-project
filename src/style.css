@@ -127,7 +127,7 @@ body {
 
 .highlighted-bg {
 	background-color: var(--second-lighter-color);
-	padding: 26px 0;
+	padding: 26px;
 	border-radius: 6px;
 }
 
