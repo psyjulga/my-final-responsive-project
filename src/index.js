@@ -200,8 +200,7 @@ const udaciRacer = {
 							and creating the
 							missing pieces and put it all together.
 							Logic, creativity, perseverance and the principle of
-							trial and failure led me to success! 🏁
-							<div> ⚠ not hosted on netlify yet ⚠ </div>`,
+							trial and failure led me to success! 🏁`,
 	netlify_link: 'https://github.com/psyjulga/udaci-racer-project',
 	title: 'Udaci Racer',
 	button_text: 'Start Race',
@@ -262,8 +261,7 @@ const petBook = {
 							fullstack project.
 							The very last - the final Masterschool project.
 							Petbook is a facebook for pet owners -
-							come and create an account yourself! 🐹 
-							<div>⚠ THIS WORK IS STILL IN PROGRESS ⚠</div>`,
+							come and create an account yourself! 🐹`,
 	netlify_link: 'https://github.com/psyjulga/petbook-project',
 	title: 'Petbook',
 	button_text: 'Create an Account',
